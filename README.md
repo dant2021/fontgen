@@ -2,6 +2,8 @@
 
 A monorepo for an AI-powered font generation web app. Deployable on Railway (backend) and Vercel (frontend).
 
+![ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/5039ad2d-3013-46db-a2ab-22c68b38060f)
+
 ---
 
 ## Project Structure
