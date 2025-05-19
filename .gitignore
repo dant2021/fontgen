@@ -1,0 +1,46 @@
+# Python
+venv/
+__pycache__/
+
+
+# Backend data/temp/output
+backend/backend/debug/
+backend/backend/output/
+backend/backend/uploads/
+backend/backend/data/
+backend/backend/__pycache__/
+
+# Node.js / Next.js / Frontend
+node_modules/
+.next/
+out/
+build/
+
+# Env files
+backend/.env
+frontend/.env.local
+.env
+.env.*
+
+# Vercel / Railway
+.vercel/
+.railway/
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE/editor
+.vscode/
+.idea/
+*.code-workspace
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log* 
