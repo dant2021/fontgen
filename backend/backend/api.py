@@ -11,7 +11,7 @@ from svg_generation import trace_bitmap_to_svg_paths
 from glyph_segmentation import merge_glyph_paths
 from font_generation import create_font_from_glyphs
 from font_regen import build_replacement_font, drop_in_replacement
-from generate_base_img import generate_base_image
+from generate_base_img import generate_base_image_replicate
 from improve_prompt import generate_prompt
 from font_normalization import normalize_glyph_heights
 import uvicorn
@@ -80,7 +80,7 @@ def process_prompt_to_font(prompt, job_dir, output_dir, debug_dir, job_id):
         with open(saved_prompt_message_path, "w") as f:
             f.write(prompt_message)
 
-        base_image_path = generate_base_image(better_prompt)
+        base_image_path = generate_base_image_replicate(better_prompt)
         
         # Save the generated image to job directory
         
